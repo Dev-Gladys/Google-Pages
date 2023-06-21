@@ -1,0 +1,330 @@
+body{
+  font-family: arial, sans-serif;
+}
+
+
+
+
+.two a{
+  float: left;
+}
+
+.images a{
+  float: right;
+}
+
+
+.links{
+
+flex-wrap: wrap;
+margin-top: 2%;
+margin-right: 50px;
+
+}
+
+
+.links  a{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.googleLink a{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  margin-left: 50px;
+}
+.googleLink a:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.links a:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+
+
+.content{
+height:70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+img{
+  height: 100px;
+  width: 20%;
+  align-items: center;
+
+}
+
+.logo{
+  height: 30px;
+  width: 20%;
+
+}
+
+
+.inputField{
+  border:1px solid #dfe1e5;
+  height:35px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 600px;
+}
+
+.inputField{
+  color: lightgray;
+}
+
+.inputField:hover{
+box-shadow: 0 0 5px grey;
+}
+
+input[name="q"]{
+width: 100%;
+border: none;
+box-shadow:none !important;
+outline:none !important;
+margin-right: 7PX;
+font-size: 16px;
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > input{
+cursor: pointer;
+
+}
+.buttons a[name="btn1"]{
+  margin-left: 20px;
+}
+
+
+/* MAKE THE BUTTON BORDERS HAVE A SHADOW */
+.buttons:hover{
+
+
+}
+
+.imageContent{
+height:70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+  flex-direction: column;
+}
+
+.inputField{
+  border:1px solid #dfe1e5;
+  height:35px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 600px;
+}
+
+.inputField{
+  color: lightgray;
+}
+
+.inputField:hover{
+box-shadow: 0 0 5px grey;
+}
+
+input[name="hl"]{
+width: 100%;
+border: none;
+box-shadow:none !important;
+outline:none !important;
+margin-right: 7PX;
+font-size: 16px;
+}
+
+
+.imageContent>img{
+  height: 150px;
+  width: 20%;
+  margin-left: 80px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+
+.googleLink{
+  margin-top: 2%;
+  margin-right: 30px;
+  justify-content: flex-end;
+  display: flex;
+
+}
+.googleLink a{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+
+
+/* ADVANCED SERACH STYLING */
+
+label{
+ margin: 5px 10px 5px 5px;
+   color: black;
+
+}
+.advHeader  a{
+  font-size: small;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.advHeader a:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+.advHeader{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+font-size: small;
+align-items: center;
+
+}
+
+
+.googlelogo{
+  display: flex;
+  width: auto;
+  align-items: center;
+
+}
+
+.googlelogo > img{
+  width: 100px;
+  height: auto;
+}
+
+
+.subAdvHeader{
+  border-bottom: 1px solid #ebebeb;
+
+}
+.subAdvHeader > h3{
+color:#d93025;
+margin-bottom: 17px;
+margin-left: 3%;
+margin-top:13px;
+font-size: 20px;
+}
+
+
+
+.input1 > .findHeader{
+  min-width: 170px;
+  width:20%;
+  font-weight: 400;
+  font-size: 15px;
+  color:black;
+}
+
+.advcontent{
+margin-top:2%;
+margin-left: 3%;
+}
+
+.input1{
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  min-width: 200px;
+  width:96%;
+  margin:42px 0 45px;
+  font-size: 12px;
+}
+
+.input1 .inputText{
+  width:350px;
+
+
+}
+.input1 .inputQuery{
+  min-width: 170px;
+  width:50%;
+}
+
+.input1 .inputQuery2{
+  width: 35.3%;
+}
+
+
+.input1 .inputQuery input{
+
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  font-size: 12px;
+  height: 30px;
+  padding: 1px 8px;
+  width: 100%;
+}
+
+.inputText2{
+  width:50px;
+  margin-right: 30px;
+}
+
+.input1 .inputQuery2 input{
+
+  padding: 1px 8px;
+}
+
+
+ .inputText{
+  color: #555;
+
+}
+
+
+.inputText2{
+
+}
+
+span{
+  font-family: monospace;
+  color: #666;
+
+}
+
+
+.Advbutton{
+  display: flex;
+  margin-left: 35%;
+
+}
+
+.toDoHeader{
+  display: flex;
+  margin-left: 50%;
+  color:black;
+}
+
+
+
+@media screen and (min-width:100px){
+img{
+    width:auto;
+  }
+
+}
